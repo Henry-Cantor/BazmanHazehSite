@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Head of html file containing links to CSS and bootstrap resources in addition to the title-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HC Research Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+                integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+                crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" 
+                integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" 
+                crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+                crossorigin="anonymous"></script>
+</head>
+<body class="body">
+
+    <!-- Navbar -->
+        <nav class="navbar navigation-bar navbar-expand-lg navbar-dark nb-background-color">
+        <!-- lg = large breakpoint, navbar-light = make text dark -->
+            <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="research-img/biotech_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="Science Logo" class="d-inline-block align-text-top w-50">
+            </a>
+
+
+            <!-- Hamburger Menu Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Callapsible navbar menu with custon hover underline CSS animation -->
+                <div class="collapse navbar-collapse" id="navmenu">
+                <!-- Links to hamburger menu button -->
+                    <ul class="navbar-nav ms-auto"> <!-- ms-auto provides auto margin spacing -->
+                    <li class="nav-item">
+                        <a href="authors.html" class="nav-link hover-underline-animation nbMenuItem">Author</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="procedure.html" class="nav-link hover-underline-animation nbMenuItem">Procedure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="results.html" class="nav-link hover-underline-animation nbMenuItem">Results</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Showcase -->
+        <section class="showcase text-light p-2 text-center">
+        <!-- headerBG = custon CSS BG color, p-2 = padding 2 -->
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-4 p-0 d-flex align-items-center">
+                    <!-- img-fluid = won't expand image larger than the container -->
+                    <img class="img-fluid" src="research-img/image-removebg-preview-25.png" alt="Algae">
+                </div>
+                <!--Text next to the image-->
+                <div class="col-sm-8 p-0 align-items-center d-flex p-10">
+                    <div class="row justify-content-center">
+                        <h1 class="heading-text">Effect of different levels of g-force on the cell density growth of <em>Chlamydomonas moewusii</em></h1> <!-- display-4 makes h1 stand out -->
+                        <h3>Henry Cantor, HTHS</h3>
+                        <!--Buttons linking to research paper and poster-->
+                        <div class="col-sm-4 p-10 d-flex justify-content-center research-container">
+                                <a class="text-light" href="https://drive.google.com/file/d/1ER7hq3pYzexx-Mt0izBUxmojH-lGTZ5c/view?usp=sharing" target="_blank">Research Paper</a>
+                        </div>
+                        <div class="col-sm-1 p-10 d-flex justify-content-center"></div>
+                        <div class="col-sm-4 p-10 d-flex justify-content-center research-container">
+                                <a class="text-light" href="https://drive.google.com/file/d/1KdOa-zKmPZBfMh8Ffuq3MF4_pXUblzv8/view?usp=sharing" target="_blank">Research Poster</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Overview -->
+        <section class="overview text-dark p-2 text-left align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm-4 p-3">
+                        <img class="img-fluid" src="research-img/algae-photo.png" alt="Algae Growing">
+                    </div>
+                    <!--Abstract-->
+                    <div class="col-sm-8 p-3">
+                        <h1 class="ovPadLeft">Abstract</h1>
+                        <ul class="lead overview-font ovPadLeft" id="">
+                            <li>Study conducted to determine the effect that levels of hypergravity between 1000 and 3000 x g has on the growth of algae</li>
+                            <li>Hypothesis was that with each incremental increase in hypergravity, the growth of the algae would decrease due to cell damage and possibly death</li>
+                            <li>Number of cells in the corner squares of a hemocytometer counted at the beginning of each trial</li>
+                            <li>Cells incubated in centrifuge, grown for two weeks, then counted again</li>
+                            <li>Before and after cell densities analyzed with a logarithmic equation and measured in the number of divisions per cell</li>
+                            <li>Found that the control had a significantly higher growth compared to the experimental groups, but the growth of these were not found to be significantly different from each other</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="border-dark">
+                <div class="row align-items-center">
+                    <!--Background-->
+                    <div class="col-sm-8 p-3">
+                        <h1 class="ovPadLeft">Background</h1>
+                        <ul class="lead overview-font ovPadLeft" id="">
+                            <li>Space travel and other environments of high g-force are becoming an increasingly large part of the world</li>
+                            <li>Algae is growing in its potential as source of food and vitamins in addition to biofuel</li>
+                            <li><em>Chlamydomonas moewusii</em> was subjected to g-force in this study and analyzed to determine the effect the g-force had on algae</li>
+                            <li>Previous studies analyzed the effect of g-force on bacteria and the effect of different factors like microgravity and plastics on algae</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 p-3">
+                        <img class="img-fluid" src="research-img/algae-fuel.png" alt="Biofuel">
+                    </div>
+                </div>
+                <hr class="border-dark">
+                <div class="row align-items-center">
+                    <!--Rationale-->
+                    <div class="col-sm-4 p-3">
+                        <img class="img-fluid" src="research-img/space-shuttle.png" alt="Space Shuttle">
+                    </div>
+                    <div class="col-sm-8 p-3">
+                        <h1 class="ovPadLeft">Rationale</h1>
+                        <ul class="lead overview-font ovPadLeft" id="">
+                            <li>Study strives to provide novel, meaningful, and relevant data in understanding hypergravity on cell growth</li>
+                            <li>Change in cell density after incubation with periods of varying degrees of centrifugation (or lack thereof for the control) hopefully provides info on a specific and little-studies area of research</li>
+                            <li>Information on how algae may behave outside of Earth was collected, as conditions of the current study mimic high-gravity environments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <!-- footer -->
+    <footer class="p-5 footer text-center position-relative foot-text">
+        <div class="container">
+            <!--Copyright text and arrow button to go to top-->
+            <p class="lead">Copyright &copy; SE 2024 HC Research Website</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h2 icon-black"></i>
+            </a>
+            <p>Stock Images Credit to Canva</p>
+        </div>
+    </footer>
+</body>
+</html>
