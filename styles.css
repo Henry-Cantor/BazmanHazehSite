@@ -6,21 +6,31 @@
     z-index: 10;
 }
 
+.navbar {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.navbar-brand {
+  padding: 10px !important;
+  margin: 0 !important;
+}
+
 .body{                        /* the body of all pages  */
-    background-color: #e1eacd;
+    background-color: lightgray;
 }
 
 .footer{                        /* for the footer at the bottom of each page  */
-    background-color: #bad8b6;
+    background-color: black;
 
 }
 
-.icon-black{            /* Arrow icon at bottom of page */
-    color: #000;
+.icon-white{            /* Arrow icon at bottom of page */
+    color: white;
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #01352c;
+    background-color: #000000; /* black */
 }
 
 .nbMenuItem{               /* navbar link text properties */
@@ -31,7 +41,7 @@
 }
 
 .overview{               /* text on index.html page */
-    background-color: #e1eacd;
+    background-color: #000057;
     font-family: 'Times New Roman';
 }
 
@@ -49,7 +59,7 @@
 }
 
 .showcase{               /* header/image on index.html  */
-    background-color: #bad8b6; /*#0096c7*/
+    background-color: lightgray; 
     margin-top: 75px;
 }
 
@@ -60,7 +70,7 @@
 }
 
 .foot-text {                /* text for footer */
-    color: black;
+    color: white;
     font-family: 'Trebuchet MS';
 }
 
@@ -216,4 +226,18 @@ hr {                           /* all horizontal line break elements  */
 .chart {
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.privdiv {
+    background-color: lightgray;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 100px;
+}
+
+.welcome {
+    font-size: 80px;
+    font-family: 'Trebuchet MS';
+    color: black
 }
